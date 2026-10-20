@@ -1,0 +1,11 @@
+{
+  "name": "stick-legacy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Stick Legacy — a stick-figure RTS tribute to classic stick-war gameplay. Pure static site: no build step required.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "test": "node tests/smoke.mjs"
+  }
+}
